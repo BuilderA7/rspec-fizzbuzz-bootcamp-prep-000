@@ -5,9 +5,10 @@ def fizzbuzz(user_input)
     end
     if user_input % 5 == 0
       puts "Buzz"
-#     else if user_input % 3 == 0 && user_input % 5 == 0
-#       puts "FizzBuzz"
-#     else 
+    end
+    if user_input % 3 == 0 && user_input % 5 == 0
+      puts "FizzBuzz"
+    if 
 #       puts nil
 #   end
 # end
