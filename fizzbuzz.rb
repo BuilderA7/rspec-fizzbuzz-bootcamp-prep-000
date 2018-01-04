@@ -8,5 +8,6 @@ def fizzbuzz(user_input)
       puts "FizzBuzz"
     else 
       puts nil
-  
+  end
+end
 
