@@ -4,13 +4,13 @@ def fizzbuzz(user_input)
       return "Fizz"
     end
     if user_input % 5 == 0
-      puts "Buzz"
+      return "Buzz"
     end
     if user_input % 3 == 0 && user_input % 5 == 0
-      puts "FizzBuzz"
+      return "FizzBuzz"
     end
     if user_input % 3 != 0 && user_input % 5 != 0
-      puts nil
+      return nil
   end
 end
 
