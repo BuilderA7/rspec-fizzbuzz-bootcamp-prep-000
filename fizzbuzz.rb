@@ -8,8 +8,8 @@ def fizzbuzz(user_input)
     end
     if user_input % 3 == 0 && user_input % 5 == 0
       puts "FizzBuzz"
-    if 
-#       puts nil
-#   end
-# end
+    if user_input % 3 != 0 && user_input % 5 != 0
+      puts nil
+  end
+end
 
